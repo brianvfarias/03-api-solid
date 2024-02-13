@@ -7,5 +7,5 @@ app
     port: env.PORT,
   })
   .then(() => {
-    console.log(`SERVER ON!!!`);
+    console.log('SERVER ON!!!');
   });

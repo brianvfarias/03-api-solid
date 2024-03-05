@@ -25,7 +25,7 @@ describe('Authentica Use Case', () => {
       password: '1234567',
     });
 
-    expect(user.id).toBeTypeOf('string');
+    expect(user.id).toEqual(expect.any(String));
   });
 
   it('should not be able to authenticate with an incorrect e-mail', async () => {

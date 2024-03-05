@@ -8,7 +8,7 @@ Features solicitadas pelo cliente
 
 - [x] Deve ser possível se cadastrar
 - [x] Deve ser possível se autenticar
-- [ ] Deve ser possível obter o perfil de um usário logado
+- [x] Deve ser possível obter o perfil de um usário logado
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado
 - [ ] Deve ser possível que o usuário obtenha seu histórico de check-ins
 - [ ] Deve ser possível buscar academias próximas

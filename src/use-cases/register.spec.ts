@@ -21,7 +21,7 @@ describe('Register Use Case', () => {
       password: 'aStrongPassword',
     });
 
-    expect(user.id).toBeTypeOf('string');
+    expect(user.id).toEqual(expect.any(String));
   });
   it('should hash user password upon user registration', async () => {
     const sut = new RegisterUseCase(new InMemoryUsersRepository());

@@ -22,7 +22,7 @@ describe('Get User Profile Use Case', () => {
 
     const { user } = await sut.execute({ userID: createdUser.id });
 
-    expect(user.id).toBeTypeOf('string');
+    expect(user.id).toEqual(expect.any(String));
     expect(user.name).toEqual('John Doe');
   });
 

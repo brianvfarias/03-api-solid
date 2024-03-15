@@ -22,7 +22,7 @@ Features solicitadas pelo cliente
 Condições ou regras para que feature esteja disponível para o usuário. Bastante disso é informado pelo próprio cliente
 
 - [x] O usuário não deve poder se cadastrar com um e-mail duplicado
-- [ ] O usuário não pode fazer 2 ou mais check-ins no mesmo dia
+- [x] O usuário não pode fazer 2 ou mais check-ins no mesmo dia
 - [ ] O usuário não pode fazer check-in se não estiver num raio de 100m da academia onde deseja fazer check-in
 - [ ] O check-in só pode ser validade até 20 minutos após criado
 - [ ] O check-in só pode ser validado por admins
